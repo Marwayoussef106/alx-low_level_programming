@@ -5,12 +5,12 @@
 * @a: first int
 * @b: second int
 * Return 0
-* */
-void swap_int (int *a,int *p)
+*/
+void swap_int(int *a, int *b)
 {
-	int s;
+		int s;
 
-	s = a;
-	*a = *p;
-	*p =s;
+		s = *a;
+		*a = *b;
+		*b = s;
 }
