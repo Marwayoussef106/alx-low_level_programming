@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  *_strncpy - function that copies a string
@@ -12,7 +12,8 @@ include "main.h"
 char *_strncpy(char *dest, char *src, int n)
 {
 int i;
-for (i = 0; i < n && *(src + i); i++)
+
+	for (i = 0; i < n && *(src + i); i++)
 	{
 		*(dest + i) = *(src + i);
 	}
