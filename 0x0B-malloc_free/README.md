@@ -12,4 +12,4 @@ File 100-argstostr.c is a function that concatenates all the arguments of our pr
 
 File 101-strtow.c is a function that splits a string into words.
 
-main.h is a header file contaning all the function prototypes.
+main.h is a header file contaning all the function prototypes
