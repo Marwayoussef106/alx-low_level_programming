@@ -1,16 +1,6 @@
-#include <stdio.h>
+#ifndef _FUNCTION_LIKE_MACRO_H
+#define _FUNCTION_LIKE_MACRO_H
 
-/**
- * main - Entry point
- *
- * Description: prints the name of the file it was
- *              compiled from, followed by a new line
- *
- * Return: Always 0 (Success)
-*/
+#define ABS(x) (((x) >= 0) ? (x) : -(x))
 
-int main(void)
-{
-	printf("%s\n", __FILE__);
-	return (0);
-}
+#endif /* _FUNCTION_LIKE_MACRO_H */
