@@ -1,3 +1,4 @@
+#include "dog.h"
 
 /**
  * free_dog - frees a memory block of type dog_t
